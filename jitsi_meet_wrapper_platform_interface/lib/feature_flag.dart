@@ -3,7 +3,14 @@
 /// Reflects the official list of Jitsi Meet SDK feature flags.
 /// https://github.com/jitsi/jitsi-meet/blob/a618697e34d947f0cc0d9ee4a0fc79c76fbae5e6/react/features/base/flags/constants.js
 enum FeatureFlag {
+  isToHideSettings,
+
+  isToHideTileView,
+
+  isToHideToolBox,
+
   isPreJoinEnabled,
+
   /// Flag indicating if add-people functionality should be enabled.
   /// Default: enabled (true).
   isAddPeopleEnabled,

@@ -160,8 +160,13 @@ class MethodChannelJitsiMeetWrapper extends JitsiMeetWrapperPlatformInterface {
   }
 
   String _toFeatureFlagString(FeatureFlag featureFlag) {
-    // Constants from: https://github.com/jitsi/jitsi-meet/blob/master/react/features/base/flags/constants.js
     switch (featureFlag) {
+      case FeatureFlag.isToHideSettings:
+        return 'settings.enabled';
+      case FeatureFlag.isToHideTileView:
+        return 'tile-view.enabled';
+      case FeatureFlag.isToHideToolBox:
+        return 'toolbox.enabled';
       case FeatureFlag.isPreJoinEnabled:
         return 'prejoinpage.enabled';
       case FeatureFlag.isAddPeopleEnabled:
