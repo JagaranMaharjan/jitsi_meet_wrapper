@@ -112,6 +112,8 @@ enum FeatureFlag {
   /// Default: auto-detected.
   isPipEnabled,
 
+  isPipEnabledWhileSharingScreen,
+
   /// Flag indicating if raise hand feature should be enabled.
   /// Default: enabled.
   isRaiseHandEnabled,

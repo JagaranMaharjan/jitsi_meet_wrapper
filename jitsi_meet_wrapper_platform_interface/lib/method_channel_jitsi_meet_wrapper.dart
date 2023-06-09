@@ -225,6 +225,8 @@ class MethodChannelJitsiMeetWrapper extends JitsiMeetWrapperPlatformInterface {
         return 'lobby-mode.enabled';
       case FeatureFlag.isNotificationsEnabled:
         return 'notifications.enabled';
+      case FeatureFlag.isPipEnabledWhileSharingScreen:
+        return 'pip-while-screen-sharing.enabled';
       case FeatureFlag.isOverflowMenuEnabled:
         return 'overflow-menu.enabled';
       case FeatureFlag.isReactionsEnabled:
