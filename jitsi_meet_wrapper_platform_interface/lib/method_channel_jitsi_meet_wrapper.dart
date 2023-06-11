@@ -165,8 +165,8 @@ class MethodChannelJitsiMeetWrapper extends JitsiMeetWrapperPlatformInterface {
         return 'settings.enabled';
       case FeatureFlag.isToHideTileView:
         return 'tile-view.enabled';
-      case FeatureFlag.isToHideToolBox:
-        return 'toolbox.enabled';
+      // case FeatureFlag.isToHideToolBox:
+      //   return 'toolbox.enabled';
       case FeatureFlag.isPreJoinEnabled:
         return 'prejoinpage.enabled';
       case FeatureFlag.isAddPeopleEnabled:
@@ -199,8 +199,8 @@ class MethodChannelJitsiMeetWrapper extends JitsiMeetWrapperPlatformInterface {
         return 'recording.enabled';
       case FeatureFlag.isTileViewEnabled:
         return 'tile-view.enabled';
-      case FeatureFlag.isToolboxAlwaysVisible:
-        return 'toolbox.alwaysVisible';
+      // case FeatureFlag.isToolboxAlwaysVisible:
+      //   return 'toolbox.alwaysVisible';
       case FeatureFlag.isWelcomePageEnabled:
         return 'welcomepage.enabled';
       case FeatureFlag.isAudioFocusDisabled:
@@ -239,8 +239,8 @@ class MethodChannelJitsiMeetWrapper extends JitsiMeetWrapperPlatformInterface {
         return 'security-options.enabled';
       case FeatureFlag.isServerUrlChangeEnabled:
         return 'server-url-change.enabled';
-      case FeatureFlag.isToolboxEnabled:
-        return 'toolbox.enabled';
+      // case FeatureFlag.isToolboxEnabled:
+      //   return 'toolbox.enabled';
       case FeatureFlag.isVideoMuteButtonEnabled:
         return 'video-mute.enabled';
       case FeatureFlag.isVideoShareButtonEnabled:
