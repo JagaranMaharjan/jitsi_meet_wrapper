@@ -7,7 +7,7 @@ enum FeatureFlag {
 
   isToHideTileView,
 
-  // isToHideToolBox,
+  isToHideToolBox,
 
   isPreJoinEnabled,
 
@@ -149,11 +149,11 @@ enum FeatureFlag {
 
   /// Flag indicating if the toolbox should be always be visible
   /// Default: disabled (false).
-  // isToolboxAlwaysVisible,
+  isToolboxAlwaysVisible,
 
   /// Flag indicating if the toolbox should be enabled
   /// Default: enabled.
-  // isToolboxEnabled,
+  isToolboxEnabled,
 
   /// Flag indicating if the video mute button should be displayed.
   /// Default: enabled (true).
